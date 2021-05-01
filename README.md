@@ -15,7 +15,7 @@ Add the namespace of your project to FontClass cs file
 ![image](https://user-images.githubusercontent.com/20809230/116710284-7916f380-a9c9-11eb-991a-3fdff319084c.png)
 
 
-Add this line anywhere in your project (prederably in the assemblyInfo.cs file)
+Add this line anywhere in your project (preferably in the assemblyInfo.cs file)
 ```C#
 [assembly: ExportFont("SEGMDL2.TTF", Alias = "IconFont")]
 ```
